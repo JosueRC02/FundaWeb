@@ -1,5 +1,5 @@
 /* Popup box BEGIN */
-.hover_bkgr_fricc1, .hover_bkgr_fricc2, .hover_bkgr_fricc3, .hover_bkgr_fricc4, .hover_bkgr_fricc5 {
+.hover_bkgr_fricc1, .hover_bkgr_fricc2, .hover_bkgr_fricc3, .hover_bkgr_fricc4, .hover_bkgr_fricc5, .hover_bkgr_fricc6, .hover_bkgr_fricc7, .hover_bkgr_fricc8, .hover_bkgr_fricc9, .hover_bkgr_fricc10 {
     cursor: pointer;
     display: none;
     height: 100%;
@@ -11,13 +11,13 @@
     padding-top: 350px;
 }
 
-.hover_bkgr_fricc1 .hover_bkgr_fricc2 .hover_bkgr_fricc3 .hover_bkgr_fricc4 .hover_bkgr_fricc5 .helper {
+.hover_bkgr_fricc1 .hover_bkgr_fricc2 .hover_bkgr_fricc3 .hover_bkgr_fricc4 .hover_bkgr_fricc5 .hover_bkgr_fricc6 .hover_bkgr_fricc7 .hover_bkgr_fricc8 .hover_bkgr_fricc9 .hover_bkgr_fricc10 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.hover_bkgr_fricc1>div, .hover_bkgr_fricc2>div, .hover_bkgr_fricc3>div, .hover_bkgr_fricc4>div, .hover_bkgr_fricc5>div  {
+.hover_bkgr_fricc1>div, .hover_bkgr_fricc2>div, .hover_bkgr_fricc3>div, .hover_bkgr_fricc4>div, .hover_bkgr_fricc5>div, .hover_bkgr_fricc6>div, .hover_bkgr_fricc7>div, .hover_bkgr_fricc8>div, .hover_bkgr_fricc9>div, .hover_bkgr_fricc10>div {
     background-color: #eeeeee;
     display: inline-block;
     height: auto;
@@ -33,7 +33,7 @@
     border-color: black;
 }
 
-.popupCloseButton1, .popupCloseButton2, .popupCloseButton3, .popupCloseButton4, .popupCloseButton5{
+.popupCloseButton1, .popupCloseButton2, .popupCloseButton3, .popupCloseButton4, .popupCloseButton5, .popupCloseButton6, .popupCloseButton7, .popupCloseButton8, .popupCloseButton9, .popupCloseButton10{
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.popupCloseButton1:hover, .popupCloseButton2:hover, .popupCloseButton3:hover, .popupCloseButton4:hover, .popupCloseButton5:hover{
+.popupCloseButton1:hover, .popupCloseButton2:hover, .popupCloseButton3:hover, .popupCloseButton4:hover, .popupCloseButton5:hover, .popupCloseButton6:hover, .popupCloseButton7:hover, .popupCloseButton8:hover, .popupCloseButton9:hover, .popupCloseButton10:hover{
     background-color: #ccc;
 }
 
