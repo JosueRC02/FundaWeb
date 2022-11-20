@@ -170,6 +170,10 @@ nav .profile-details i{
   font-size: 25px;
   color: #333;
 }
+
+.home-content{
+  background:#eeeeee;
+}
 .home-section .home-content{
   position: relative;
   padding-top: 104px;
@@ -411,7 +415,7 @@ nav .profile-details i{
   }
 
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -422,7 +426,7 @@ nav .profile-details i{
 
 .separador{
   width: 1000px;
-  background-color: #2196F3;
+  background-color: rgba(108, 108, 254, 0.5);
   margin-left: 375px;
   margin-right: 20px;
   border-radius: 15px;
@@ -430,7 +434,7 @@ nav .profile-details i{
 
 .separadorbtn{
   width: 1000px;
-  background-color: #2196F3;
+  background-color: rgba(108, 108, 254, 0.5);
   margin-left: 375px;
   border-radius: 15px;
   display: flex;
@@ -441,7 +445,7 @@ nav .profile-details i{
 
 .separadortb{
   width: 1000px;
-  background-color: #2196F3;
+  background-color: rgba(108, 108, 254, 0.5);
   margin-left: 375px;
   border-radius: 15px;
   display: flex;
@@ -457,10 +461,17 @@ nav .profile-details i{
 
 .separadorin{
   width: 1400px;
-  background-color: #2196F3;
+  background-color: rgba(108, 108, 254, 0.5);
   margin-left: 150px;
   border-radius: 15px;
   display: flex;
   padding: 20px;
   align-items: center;
+}
+
+.blanco1 {
+  width: 900px;
+  background: white;
+  border-radius: 15px;
+  margin-left: 50px;
 }
