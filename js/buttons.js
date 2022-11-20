@@ -47,3 +47,53 @@ $(window).load(function () {
         $('.hover_bkgr_fricc5').hide();
     });
 });
+
+//Boton Verde Redondo
+$(window).load(function () {
+    $(".button6").click(function () {
+        $('.hover_bkgr_fricc6').show();
+    });
+    $('.popupCloseButton6').click(function () {
+        $('.hover_bkgr_fricc6').hide();
+    });
+});
+
+//Boton Azul Redondo
+$(window).load(function () {
+    $(".button7").click(function () {
+        $('.hover_bkgr_fricc7').show();
+    });
+    $('.popupCloseButton7').click(function () {
+        $('.hover_bkgr_fricc7').hide();
+    });
+});
+
+//Boton Rojo Redondo
+$(window).load(function () {
+    $(".button8").click(function () {
+        $('.hover_bkgr_fricc8').show();
+    });
+    $('.popupCloseButton8').click(function () {
+        $('.hover_bkgr_fricc8').hide();
+    });
+});
+
+//Boton Gris Redondo
+$(window).load(function () {
+    $(".button9").click(function () {
+        $('.hover_bkgr_fricc9').show();
+    });
+    $('.popupCloseButton9').click(function () {
+        $('.hover_bkgr_fricc9').hide();
+    });
+});
+
+//Boton Negro Redondo
+$(window).load(function () {
+    $(".button10").click(function () {
+        $('.hover_bkgr_fricc10').show();
+    });
+    $('.popupCloseButton10').click(function () {
+        $('.hover_bkgr_fricc10').hide();
+    });
+});
