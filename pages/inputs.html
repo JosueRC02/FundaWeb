@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mecano.css">
+    <link rel="stylesheet" href="../style/ventana1.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -54,16 +56,30 @@
             <div class="overview-boxes">
                 <div class="separadorin">
                     <form>
-                        <label>Default</label>
+                        <!------------------------------------------------------------------------------------------------------->
+                        <label  class="imputNormal">Default</label>
                         <input type="text" id="fname" name="fname">
+                        <div class="ventana">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="popup">&times;</div>
+                                <p><b>HTML:</b> &lt;input type="text" id="fname" name="fname"&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!----------------------------------------------------------------------------------------------------------->
                         <label for="lname">Disabled</label>
                         <input type="text" id="lname" name="lname" disabled>
+                        <!------------------------------------------------------------------------------------------------------->
                         <label for="lname">Read-Only</label>
                         <input type="text" id="lname" name="lname" readonly>
+                        <!------------------------------------------------------------------------------------------------------->
                         <label for="lname">Text-Area</label>
                         <textarea cols="30" rows="2"></textarea>
+                        <!------------------------------------------------------------------------------------------------------->
                         <label for="date">Date of Birth:</label>
                         <input type="date" id="date" name="date">
+                        <!------------------------------------------------------------------------------------------------------->
                     </form>
                 </div><br>
 
@@ -180,7 +196,7 @@
                 sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
         }
     </script>
-
+<script type="module" src="../js/inputs.js"></script>
 </body>
 
 </html>

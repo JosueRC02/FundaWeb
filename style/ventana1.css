@@ -1,0 +1,56 @@
+/* Popup box BEGIN */
+.ventana{
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 960px;
+    z-index: 10000;
+    padding-top: 350px;
+}
+
+.ventana{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.ventana>div{
+    background-color: #eeeeee;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+}
+
+.popup{
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.popup:hover{
+    background-color: #ccc;
+}
