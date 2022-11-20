@@ -1,14 +1,8 @@
-const Swal = require('../node_modules/sweetalert2/dist/sweetalert2.all.min');
-
-let verde = document.getElementById("verde");
-
-verde.addEventListener("click", btnverde);
-
-function btnverde(){
-    Swal.fire({
-    title: 'Error!',
-    text: 'Do you want to continue',
-    icon: 'error',
-    confirmButtonText: 'Cool'
-    })
-}
+$(window).load(function () {
+    $(".button1").click(function () {
+        $('.hover_bkgr_fricc').show();
+    });
+    $('.popupCloseButton').click(function () {
+        $('.hover_bkgr_fricc').hide();
+    });
+});
