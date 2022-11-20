@@ -1,5 +1,5 @@
 /* Popup box BEGIN */
-.hover_bkgr_fricc {
+.hover_bkgr_fricc1, .hover_bkgr_fricc2, .hover_bkgr_fricc3, .hover_bkgr_fricc4, .hover_bkgr_fricc5 {
     cursor: pointer;
     display: none;
     height: 100%;
@@ -8,15 +8,16 @@
     top: 0;
     width: 960px;
     z-index: 10000;
+    padding-top: 350px;
 }
 
-.hover_bkgr_fricc .helper {
+.hover_bkgr_fricc1 .hover_bkgr_fricc2 .hover_bkgr_fricc3 .hover_bkgr_fricc4 .hover_bkgr_fricc5 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.hover_bkgr_fricc>div {
+.hover_bkgr_fricc1>div, .hover_bkgr_fricc2>div, .hover_bkgr_fricc3>div, .hover_bkgr_fricc4>div, .hover_bkgr_fricc5>div  {
     background-color: #eeeeee;
     display: inline-block;
     height: auto;
@@ -32,7 +33,7 @@
     border-color: black;
 }
 
-.popupCloseButton {
+.popupCloseButton1, .popupCloseButton2, .popupCloseButton3, .popupCloseButton4, .popupCloseButton5{
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -50,16 +51,8 @@
     text-align: center;
 }
 
-.popupCloseButton:hover {
+.popupCloseButton1:hover, .popupCloseButton2:hover, .popupCloseButton3:hover, .popupCloseButton4:hover, .popupCloseButton5:hover{
     background-color: #ccc;
-}
-
-.trigger_popup_fricc {
-    cursor: pointer;
-    font-size: 20px;
-    margin: 20px;
-    display: inline-block;
-    font-weight: bold;
 }
 
 /* Popup box BEGIN */
