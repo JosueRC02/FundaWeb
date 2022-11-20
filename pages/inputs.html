@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
-    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
     <link rel="stylesheet" href="../style/style.css">
-    <!-- Boxicons CDN Link -->
+    <link rel="stylesheet" href="../style/mecano.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -54,10 +52,122 @@
 
         <div class="home-content">
             <div class="overview-boxes">
+                <div class="separadorin">
+                    <form>
+                        <label>Default</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Disabled</label>
+                        <input type="text" id="lname" name="lname" disabled>
+                        <label for="lname">Read-Only</label>
+                        <input type="text" id="lname" name="lname" readonly>
+                        <label for="lname">Text-Area</label>
+                        <textarea cols="30" rows="2"></textarea>
+                        <label for="date">Date of Birth:</label>
+                        <input type="date" id="date" name="date">
+                    </form>
+                </div><br>
 
+                <div class="separadorin">
+                    <form>
+                        <label for="lname">Password</label>
+                        <input type="password" id="lname" name="lname">
+                        <label for="lname">Select</label>
+                        <select name="cars" id="cars"><br>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <label for="lname">Select Custom</label>
+                        <select>
+                            <option value="0">Select car:</option>
+                            <option value="1">Audi</option>
+                            <option value="2">BMW</option>
+                            <option value="3">Citroen</option>
+                            <option value="4">Ford</option>
+                            <option value="5">Honda</option>
+                            <option value="6">Jaguar</option>
+                            <option value="7">Land Rover</option>
+                            <option value="8">Mercedes</option>
+                            <option value="9">Mini</option>
+                            <option value="10">Nissan</option>
+                            <option value="11">Toyota</option>
+                            <option value="12">Volvo</option>
+                        </select>
+                        <label for="lname">Select Grouped</label>
+                        <select name="cars" id="cars">
+                            <optgroup label="Swedish Cars">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </optgroup>
+                        </select>
+                        <label for="lname">Select Multiple</label>
+                        <select multiple name="drawfs" id="drawfs">
+                            <option>Gruñón</option>
+                            <option>Feliz</option>
+                            <option>Dormilón</option>
+                            <option>Tímido</option>
+                            <option>Estornudo</option>
+                            <option>Tontín</option>
+                            <option>Doc</option>
+                        </select>
+                    </form>
+                </div><br>
+
+                <div class="separadorin">
+                    <div class="blanco">
+                    <div class="container"><br><br>
+                        <h1>Input Tag:</h1>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <span>javascript</span>
+                                <i class="material-icons">close</i>
+                            </div>
+                            <div class="tag">
+                                <span>css</span>
+                                <i class="material-icons">close</i>
+                            </div>
+                            <div class="tag">
+                                <span>html</span>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div><br>
+              
+                <div class="separadorin">
+                    <div class="blanco">
+                    <form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="CheckandRadio">CheckBox and Radio Button:</label><br>
+                        <label>Normal Boostrap Elements</label><br>
+                        <input type="checkbox" name="option1"> Option one, select more than one options<br>
+                        <input type="checkbox" name="option2"> Option two, select more than one options<br>
+                        <input type="radio" name="option1" checked> Option one, only select one option<br>
+                        <input type="radio" name="option2"> Option two, only select one option<br>
+                    </form>
+                    </div>
+                    </div><br>
+
+                    <div class="separadorin">
+                    <div class="blanco">
+                        <form>
+                            <label for="CheckandRadio">CheckBox and Radio Button:</label><br>
+                            <label>Normal Boostrap Elements</label><br>
+                            <input type="checkbox" name="option1" checked>Checked<br>
+                            <input type="checkbox" name="option2">Unchecked<br>
+                            <input type="radio" name="option1" disabled>Disabled<br>
+                            <input type="radio" name="option2" id="option2" checked disabled>Disabled & Checked<br>
+                        </form>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-    </section>
+        </section>
 
     <script>
         let sidebar = document.querySelector(".sidebar");
