@@ -1,5 +1,5 @@
 /* Popup box BEGIN */
-.hover_bkgr_fricc1, .hover_bkgr_fricc2, .hover_bkgr_fricc3, .hover_bkgr_fricc4, .hover_bkgr_fricc5, .hover_bkgr_fricc6, .hover_bkgr_fricc7, .hover_bkgr_fricc8, .hover_bkgr_fricc9, .hover_bkgr_fricc10 {
+.hover_bkgr_fricc1, .hover_bkgr_fricc2, .hover_bkgr_fricc3, .hover_bkgr_fricc4, .hover_bkgr_fricc5, .hover_bkgr_fricc6, .hover_bkgr_fricc7, .hover_bkgr_fricc8, .hover_bkgr_fricc9, .hover_bkgr_fricc10, .hover_bkgr_fricc11, .hover_bkgr_fricc12, .hover_bkgr_fricc13, .hover_bkgr_fricc14, .hover_bkgr_fricc15, .hover_bkgr_fricc16,.hover_bkgr_fricc17, .hover_bkgr_fricc18, .hover_bkgr_fricc19, .hover_bkgr_fricc20, .hover_bkgr_fricc21, .hover_bkgr_fricc22, .hover_bkgr_fricc23, .hover_bkgr_fricc24 {
     cursor: pointer;
     display: none;
     height: 100%;
@@ -11,13 +11,13 @@
     padding-top: 350px;
 }
 
-.hover_bkgr_fricc1 .hover_bkgr_fricc2 .hover_bkgr_fricc3 .hover_bkgr_fricc4 .hover_bkgr_fricc5 .hover_bkgr_fricc6 .hover_bkgr_fricc7 .hover_bkgr_fricc8 .hover_bkgr_fricc9 .hover_bkgr_fricc10 .helper {
+.hover_bkgr_fricc1 .hover_bkgr_fricc2 .hover_bkgr_fricc3 .hover_bkgr_fricc4 .hover_bkgr_fricc5 .hover_bkgr_fricc6 .hover_bkgr_fricc7 .hover_bkgr_fricc8 .hover_bkgr_fricc9 .hover_bkgr_fricc10 .hover_bkgr_fricc11 .hover_bkgr_fricc12 .hover_bkgr_fricc13 .hover_bkgr_fricc14 .hover_bkgr_fricc15 .hover_bkgr_fricc16 .hover_bkgr_fricc17 .hover_bkgr_fricc18 .hover_bkgr_fricc19 .hover_bkgr_fricc20 .hover_bkgr_fricc21 .hover_bkgr_fricc21 .hover_bkgr_fricc22 .hover_bkgr_fricc23 .hover_bkgr_fricc24 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.hover_bkgr_fricc1>div, .hover_bkgr_fricc2>div, .hover_bkgr_fricc3>div, .hover_bkgr_fricc4>div, .hover_bkgr_fricc5>div, .hover_bkgr_fricc6>div, .hover_bkgr_fricc7>div, .hover_bkgr_fricc8>div, .hover_bkgr_fricc9>div, .hover_bkgr_fricc10>div {
+.hover_bkgr_fricc1>div, .hover_bkgr_fricc2>div, .hover_bkgr_fricc3>div, .hover_bkgr_fricc4>div, .hover_bkgr_fricc5>div, .hover_bkgr_fricc6>div, .hover_bkgr_fricc7>div, .hover_bkgr_fricc8>div, .hover_bkgr_fricc9>div, .hover_bkgr_fricc10>div, .hover_bkgr_fricc11>div, .hover_bkgr_fricc12>div, .hover_bkgr_fricc13>div, .hover_bkgr_fricc14>div, .hover_bkgr_fricc15>div, .hover_bkgr_fricc16>div, .hover_bkgr_fricc17>div, .hover_bkgr_fricc18>div, .hover_bkgr_fricc19>div, .hover_bkgr_fricc20>div, .hover_bkgr_fricc21>div, .hover_bkgr_fricc22>div, .hover_bkgr_fricc23>div, .hover_bkgr_fricc24>div{
     background-color: #eeeeee;
     display: inline-block;
     height: auto;
@@ -33,7 +33,7 @@
     border-color: black;
 }
 
-.popupCloseButton1, .popupCloseButton2, .popupCloseButton3, .popupCloseButton4, .popupCloseButton5, .popupCloseButton6, .popupCloseButton7, .popupCloseButton8, .popupCloseButton9, .popupCloseButton10{
+.popupCloseButton1, .popupCloseButton2, .popupCloseButton3, .popupCloseButton4, .popupCloseButton5, .popupCloseButton6, .popupCloseButton7, .popupCloseButton8, .popupCloseButton9, .popupCloseButton10, .popupCloseButton11, .popupCloseButton12, .popupCloseButton13, .popupCloseButton14, .popupCloseButton15, .popupCloseButton16, .popupCloseButton17, .popupCloseButton18, .popupCloseButton19, .popupCloseButton20, .popupCloseButton21, .popupCloseButton22, .popupCloseButton23, .popupCloseButton24 {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -51,7 +51,63 @@
     text-align: center;
 }
 
-.popupCloseButton1:hover, .popupCloseButton2:hover, .popupCloseButton3:hover, .popupCloseButton4:hover, .popupCloseButton5:hover, .popupCloseButton6:hover, .popupCloseButton7:hover, .popupCloseButton8:hover, .popupCloseButton9:hover, .popupCloseButton10:hover{
+.popupCloseButton1:hover, .popupCloseButton2:hover, .popupCloseButton3:hover, .popupCloseButton4:hover, .popupCloseButton5:hover, .popupCloseButton6:hover, .popupCloseButton7:hover, .popupCloseButton8:hover, .popupCloseButton9:hover, .popupCloseButton10:hover, .popupCloseButton11:hover, .popupCloseButton12:hover, .popupCloseButton13:hover, .popupCloseButton14:hover, .popupCloseButton15:hover, .popupCloseButton16:hover, .popupCloseButton17:hover, .popupCloseButton18:hover .popupCloseButton19:hover, .popupCloseButton20:hover, .popupCloseButton21:hover, .popupCloseButton22:hover, .popupCloseButton23:hover, .popupCloseButton24:hover {
+    background-color: #ccc;
+}
+
+.hover_bkgr_fricc21{
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 960px;
+    z-index: 10000;
+    padding-top: 170px;
+}
+
+.hover_bkgr_fricc21.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.hover_bkgr_fricc21>div {
+    background-color: #eeeeee;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+}
+
+.popupCloseButton21{
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.popupCloseButton21:hover {
     background-color: #ccc;
 }
 
