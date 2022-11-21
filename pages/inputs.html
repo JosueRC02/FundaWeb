@@ -59,42 +59,97 @@
                         <!------------------------------------------------------------------------------------------------------->
                         <label  class="imputNormal">Default</label>
                         <input type="text" id="fname" name="fname">
-                        <div class="ventana">
+                        <div class="inputventana">
                             <span class="helper"></span>
                             <div>
-                                <div class="popup">&times;</div>
+                                <div class="inputpopup">&times;</div>
                                 <p><b>HTML:</b> &lt;input type="text" id="fname" name="fname"&gt;</p><br>
 
                             </div>
                         </div>
                         <!----------------------------------------------------------------------------------------------------------->
-                        <label for="lname">Disabled</label>
+                        <label for="lname" class="imputDisable">Disabled</label>
                         <input type="text" id="lname" name="lname" disabled>
+                        <div class="inputventana1">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup1">&times;</div>
+                                <p><b>HTML:</b> &lt;input type="text" id="lname" name="lname" disabled&gt;</p><br>
+
+                            </div>
+                        </div>
                         <!------------------------------------------------------------------------------------------------------->
-                        <label for="lname">Read-Only</label>
+                        <label for="lname" class="readOnly">Read-Only</label>
                         <input type="text" id="lname" name="lname" readonly>
+                        <div class="inputventana2">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup2">&times;</div>
+                                <p><b>HTML:</b> &lt;input type="text" id="lname" name="lname" readonly&gt;</p><br>
+
+                            </div>
+                        </div>
                         <!------------------------------------------------------------------------------------------------------->
-                        <label for="lname">Text-Area</label>
+                        <label for="lname" class="textArea">Text-Area</label>
                         <textarea cols="30" rows="2"></textarea>
+                        <div class="inputventana3">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup3">&times;</div>
+                                <p><b>HTML:</b> &lt;textarea cols="30" rows="2"&gt;&lt;/textarea&gt;</p><br>
+
+                            </div>
+                        </div>
                         <!------------------------------------------------------------------------------------------------------->
-                        <label for="date">Date of Birth:</label>
+                        <label for="date" class="dateOf">Date of Birth:</label>
                         <input type="date" id="date" name="date">
+                        <div class="inputventana4">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup4">&times;</div>
+                                <p><b>HTML:</b> &lt;input type="date" id="date" name="date"&gt;</p><br>
+
+                            </div>
+                        </div>
                         <!------------------------------------------------------------------------------------------------------->
                     </form>
                 </div><br>
 
                 <div class="separadorin">
                     <form>
-                        <label for="lname">Password</label>
+                        <label for="lname" class="pass">Password</label>
                         <input type="password" id="lname" name="lname">
-                        <label for="lname">Select</label>
+                        <div class="inputventana5">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup5">&times;</div>
+                                <p><b>HTML:</b> &lt;input type="password" id="lname" name="lname"&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!------------------------------------------------------------------------------------------------------->
+                        <label for="lname" class="selectI">Select</label>
                         <select name="cars" id="cars"><br>
                             <option value="volvo">Volvo</option>
                             <option value="saab">Saab</option>
                             <option value="opel">Opel</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <label for="lname">Select Custom</label>
+                        <div class="inputventana6">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup6">&times;</div>
+                                <p><b>HTML:</b>&lt;select name="cars" id="cars"&gt;&lt;br&gt;
+                                    &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                                    &lt;option value="saab"&gt;Saab&lt;/option&gt;
+                                    &lt;option value="opel"&gt;Opel&lt;/option&gt;
+                                    &lt;option value="audi"&gt;Audi&lt;/option&gt;
+                                    &lt;/select&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!------------------------------------------------------------------------------------------------------->
+                        <label for="lname" class="selectC">Select Custom</label>
                         <select>
                             <option value="0">Select car:</option>
                             <option value="1">Audi</option>
@@ -110,7 +165,30 @@
                             <option value="11">Toyota</option>
                             <option value="12">Volvo</option>
                         </select>
-                        <label for="lname">Select Grouped</label>
+                        <div class="inputventana7">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup7">&times;</div>
+                                <p><b>HTML:</b>&lt;select&gt;
+                                    &lt;option value="0"&gt;Select car:&lt;/option&gt;
+                                    &lt;option value="1"&gt;Audi&lt;/option&gt;
+                                    &lt;option value="2"&gt;BMW&lt;/option&gt;
+                                    &lt;option value="3"&gt;Citroen&lt;/option&gt;
+                                    &lt;option value="4"&gt;Ford&lt;/option&gt;
+                                    &lt;option value="5"&gt;Honda&lt;/option&gt;
+                                    &lt;option value="6"&gt;Jaguar&lt;/option&gt;
+                                    &lt;option value="7"&gt;Land Rover&lt;/option&gt;
+                                    &lt;option value="8"&gt;Mercedes&lt;/option&gt;
+                                    &lt;option value="9"&gt;Mini&lt;/option&gt;
+                                    &lt;option value="10"&gt;Nissan&lt;/option&gt;
+                                    &lt;option value="11"&gt;Toyota&lt;/option&gt;
+                                    &lt;option value="12"&gt;Volvo&lt;/option&gt;
+                                    &lt;/select&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!------------------------------------------------------------------------------------------------------->
+                        <label for="lname" class="selectG">Select Grouped</label>
                         <select name="cars" id="cars">
                             <optgroup label="Swedish Cars">
                                 <option value="volvo">Volvo</option>
@@ -121,7 +199,25 @@
                                 <option value="audi">Audi</option>
                             </optgroup>
                         </select>
-                        <label for="lname">Select Multiple</label>
+                        <div class="inputventana8">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup8">&times;</div>
+                                <p><b>HTML:</b>&lt;select name="cars" id="cars"&gt;
+                                    &lt;optgroup label="Swedish Cars"&gt;
+                                    &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                                    &lt;option value="saab"&gt;Saab&lt;/option&gt;
+                                    &lt;/optgroup&gt;
+                                    &lt;optgroup label="German Cars"&gt;
+                                    &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;
+                                    &lt;option value="audi"&gt;Audi&lt;/option&gt;
+                                    &lt;/optgroup&gt;
+                                    &lt;/select&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!------------------------------------------------------------------------------------------------------->
+                        <label for="lname" class="selectM">Select Multiple</label>
                         <select multiple name="drawfs" id="drawfs">
                             <option>Gruñón</option>
                             <option>Feliz</option>
@@ -131,13 +227,30 @@
                             <option>Tontín</option>
                             <option>Doc</option>
                         </select>
+                        <div class="inputventana9">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="inputpopup9">&times;</div>
+                                <p><b>HTML:</b>&lt;select multiple name="drawfs" id="drawfs"&gt;
+                                    &lt;option&gt;Gruñón&lt;/option&gt;
+                                    &lt;option&gt;Feliz&lt;/option&gt;
+                                    &lt;option&gt;Dormilón&lt;/option&gt;
+                                    &lt;option&gt;Tímido&lt;/option&gt;
+                                    &lt;option&gt;Estornudo&lt;/option&gt;
+                                    &lt;option&gt;Tontín&lt;/option&gt;
+                                    &lt;option&gt;Doc&lt;/option&gt;
+                                    &lt;/select&gt;</p><br>
+
+                            </div>
+                        </div>
+                        <!------------------------------------------------------------------------------------------------------->
                     </form>
                 </div><br>
 
                 <div class="separadorin">
                     <div class="blanco">
                     <div class="container"><br><br>
-                        <h1>Input Tag:</h1>
+                        <h1 class="inputtag">Input Tag:</h1>
                         <div class="tag-container">
                             <div class="tag">
                                 <span>javascript</span>
@@ -155,7 +268,32 @@
                     </div>
                     </div>
                 </div><br>
-              
+                <div class="inputventana10">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="inputpopup10">&times;</div>
+                        <p><b>HTML:</b>&lt;div class="container"&gt;&lt;br&gt;&lt;br&gt;
+                            &lt;h1 class="inputtag"&gt;Input Tag:&lt;/h1&gt;
+                            &lt;div class="tag-container"&gt;
+                            &lt;div class="tag"&gt;
+                            &lt;span&gt;javascript&lt;/span&gt;
+                            &lt;i class="material-icons"&gt;close&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class="tag"&gt;
+                            &lt;span&gt;css&lt;/span&gt;
+                            &lt;i class="material-icons"&gt;close&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class="tag"&gt;
+                            &lt;span&gt;html&lt;/span&gt;
+                            &lt;i class="material-icons"&gt;close&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;/div&gt;</p><br>
+                            <p><b>CCS</b>.container {width: 60%;margin: 10px;}.tag-container {border: 2px solid #ccc;padding: 10px;border-radius: 5px;display: flex;}.tag-container .tag {padding: 5px; border: 1px solid #ccc;margin: 5px;display: flex;align-items: center;border-radius: 3px;background: #f2f2f2;cursor: default;}.tag i {font-size: 16px;margin-left: 5px;}.tag-container input {flex: 1;font-size: 16px;padding: 5px;outline: none;border: 0;} </p>
+                            
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separadorin">
                     <div class="blanco">
                     <form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

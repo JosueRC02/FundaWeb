@@ -1,5 +1,5 @@
 /* Popup box BEGIN */
-.ventana{
+.inputventana, .inputventana1, .inputventana2, .inputventana3, .inputventana4, .inputventana5, .inputventana6, .inputventana7, .inputventana8, .inputventana9, .inputventana10, .inputventana11, .inputventana12, .inputventana13, .inputventana14, .inputventana15, .inputventana16, .inputventana17, .inputventana18{
     cursor: pointer;
     display: none;
     height: 100%;
@@ -11,13 +11,13 @@
     padding-top: 350px;
 }
 
-.ventana{
+.inputventana .inputventana1 .inputventana2 .inputventana3 .inputventana4 .inputventana5 .inputventana6 .inputventana7 .inputventana8 .inputventana9 .inputventana10 .inputventana11 .inputventana12 .inputventana13 .inputventana14 .inputventana15 .inputventana16 .inputventana17 .inputventana18{
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.ventana>div{
+.inputventana>div, .inputventana1>div, .inputventana2>div, .inputventana3>div, .inputventana4>div, .inputventana5>div, .inputventana6>div, .inputventana7>div, .inputventana8>div, .inputventana9>div, .inputventana10>div, .inputventana11>div, .inputventana12>div, .inputventana13>div, .inputventana14>div, .inputventana15>div, .inputventana16>div, .inputventana17>div, .inputventana18>div{
     background-color: #eeeeee;
     display: inline-block;
     height: auto;
@@ -33,7 +33,7 @@
     border-color: black;
 }
 
-.popup{
+.inputpopup, .inputpopup1, .inputpopup2, .inputpopup3, .inputpopup4, .inputpopup5, .inputpopup6, .inputpopup7, .inputpopup8, .inputpopup9, .inputpopup10, .inputpopup11, .inputpopup12, .inputpopup13, .inputpopup14, .inputpopup15, .inputpopup16, .inputpopup17, .inputpopup18{
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -51,6 +51,6 @@
     text-align: center;
 }
 
-.popup:hover{
+.inputpopup:hover, .inputpopup1:hover, .inputpopup2:hover, .inputpopup3:hover, .inputpopup4:hover, .inputpopup5:hover, .inputpopup6:hover, .inputpopup7:hover, .inputpopup8:hover, .inputpopup9:hover, .inputpopup10:hover, .inputpopup11:hover, .inputpopup12:hover, .inputpopup13:hover, .inputpopup14:hover, .inputpopup15:hover, .inputpopup16:hover, .inputpopup17:hover, .inputpopup18:hover{
     background-color: #ccc;
 }
