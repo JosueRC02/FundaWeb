@@ -16,3 +16,30 @@ $(window).load(function () {
         $('.tablaventana1').hide();
     });
 });
+
+$(window).load(function () {
+    $(".table2").click(function () {
+        $('.tablaventana2').show();
+    });
+    $('.tablapopup2').click(function () {
+        $('.tablaventana2').hide();
+    });
+});
+
+$(window).load(function () {
+    $(".table3").click(function () {
+        $('.tablaventana3').show();
+    });
+    $('.tablapopup3').click(function () {
+        $('.tablaventana3').hide();
+    });
+});
+
+$(window).load(function () {
+    $(".table4").click(function () {
+        $('.tablaventana4').show();
+    });
+    $('.tablapopup4').click(function () {
+        $('.tablaventana4').hide();
+    });
+});

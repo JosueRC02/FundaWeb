@@ -1,4 +1,4 @@
-.tablaventana, .tablaventana1{
+.tablaventana, .tablaventana1, .tablaventana2, .tablaventana3, .tablaventana4{
     cursor: pointer;
     display: none;
     height: 100%;
@@ -10,13 +10,13 @@
     padding-top: 350px;
 }
 
-.tablaventana .tablaventana{
+.tablaventana .tablaventana1 .tablaventana2 .tablaventana3 .tablaventana4{
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.tablaventana>div, .tablaventana1>div{
+.tablaventana>div, .tablaventana1>div, .tablaventana2>div, .tablaventana3>div, .tablaventana4>div{
     background-color: #eeeeee;
     display: inline-block;
     height: auto;
@@ -32,7 +32,7 @@
     border-color: black;
 }
 
-.tablapopup, .tablapopup1{
+.tablapopup, .tablapopup1, .tablapopup2, .tablapopup3, .tablapopup4{
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -50,6 +50,6 @@
     text-align: center;
 }
 
-.tablapopup:hover, .tablapopup1:hover{
+.tablapopup:hover, .tablapopup1:hover, .tablapopup2:hover, .tablapopup3:hover, .tablapopup4:hover{
     background-color: #ccc;
 }
