@@ -1,0 +1,56 @@
+/* Popup box BEGIN */
+.eleventana, .eleventana1, .eleventana2, .eleventana3, .eleventana4, .eleventana5, .eleventana6, .eleventana7{
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 960px;
+    z-index: 10000;
+    padding-top: 350px;
+}
+
+.eleventana .eleventana1 .eleventana2 .eleventana3 .eleventana4 .eleventana5 .eleventana6 .eleventana7{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.eleventana>div, .eleventana1>div, .eleventana2>div, .eleventana3>div, .eleventana4>div, .eleventana5>div, .eleventana6>div, .eleventana7>div{
+    background-color: #eeeeee;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+}
+
+.elepopup, .elepopup1, .elepopup2, .elepopup3, .elepopup4, .elepopup5, .elepopup6, .elepopup7{
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.elepopup:hover, .elepopup1:hover, .elepopup2:hover, .elepopup3:hover, .elepopup4:hover, .elepopup5:hover, .elepopup6:hover, .elepopup7:hover{
+    background-color: #ccc;
+}

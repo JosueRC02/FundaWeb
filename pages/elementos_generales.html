@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mecano.css">
+    <link rel="stylesheet" href="../style/ventana3.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -54,7 +56,7 @@
             <div class="overview-boxes">
                 <div class="separador"><br>
                     <div class="blanco1">
-                    <h1>Tab</h1>
+                    <h1 class="tabE">Tab</h1>
                         <div class="tab">
                             <button class="tablinks" onclick="openCity(event, 'London')">London</button>
                             <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
@@ -62,10 +64,23 @@
                         </div><br>
                     </div><br>
                 </div><br>
+                <div class="eleventana">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup">&times;</div>
+                        <p><b>HTML:</b>&lt;button class="tablinks" onclick="openCity(event, 'London')"&gt;London&lt;/button&gt;
+                            &lt;button class="tablinks" onclick="openCity(event, 'Paris')"&gt;Paris&lt;/button&gt;
+                            &lt;button class="tablinks" onclick="openCity(event, 'Tokyo')"&gt;Tokyo&lt;/button&gt;
+                        </p><br><p>
+                            <b>CSS:</b>.tab {overflow: hidden;border: 1px solid #ccc; background-color: #f1f1f1;}.tab button {background-color: inherit;border: none;outline: none;cursor: pointer;padding: 14px;transition: 0.3s;font-size: 17px;}.tab button:hover {background-color: #ddd;}.tab button.active {background-color: #ccc;}.tabcontent { display: none;padding: 6px 12px;border: 1px solid #ccc;border-top: none;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
 
                 <div class="separador"><br>
                     <div class="blanco1">
-                            <h1>Lista</h1>
+                            <h1 class="listaE">Lista</h1>
                             <div>
                                 <div class="item">Apples</div>
                                 <div class="item">Pears</div>
@@ -73,10 +88,21 @@
                             </div>
                             </div><br>
                         </div><br>
+                        <div class="eleventana1">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="elepopup1">&times;</div>
+                                <p><b>HTML:</b> &lt;div class="item"&gt;Apples&lt;/div&gt;
+                                    &lt;div class="item"&gt;Pears&lt;/div&gt;
+                                    &lt;div class="item"&gt;Oranges&lt;/div&gt;
+                                </p><br>
+                            </div>
+                        </div>
 
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
-                    <h2>Toggle Switch</h2><br>
+                    <h2 class="toggleE">Toggle Switch</h2><br>
                     
                     <label class="switch">
                         <input type="checkbox">
@@ -99,11 +125,40 @@
                     </label><br><br>
                     </div><br>
                 </div><br>
+                <div class="eleventana2">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup2">&times;</div>
+                        <p><b>HTML:</b>&lt;label class="switch"&gt;
+                            &lt;input type="checkbox"&gt;
+                            &lt;span class="slider"&gt;&lt;/span&gt;
+                            &lt;/label&gt;
+                        
+                            &lt;label class="switch"&gt;
+                            &lt;input type="checkbox" checked&gt;
+                            &lt;span class="slider"&gt;&lt;/span&gt;
+                            &lt;/label&gt;&lt;br&gt;&lt;br&gt;
+                        
+                            &lt;label class="switch"&gt;
+                            &lt;input type="checkbox"&gt;
+                            &lt;span class="slider round"&gt;&lt;/span&gt;
+                            &lt;/label&gt;
+                        
+                            &lt;label class="switch"&gt;
+                            &lt;input type="checkbox" checked&gt;
+                            &lt;span class="slider round"&gt;&lt;/span&gt;
+                            &lt;/label&gt;</p><br>
+                            <p>
+                                <b>CSS:</b> .switch {position: relative;display: inline-block;width: 60px;height: 34px;}.switch input {opacity: 0;width: 0;height: 0;}.slider { position: absolute;cursor: pointer; top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}.slider:before {position: absolute; content: "";height: 26px;width: 26px;left: 4px;bottom: 4px;background-color: white;-webkit-transition: .4s;transition: .4s;}input:checked+.slider {background-color: #238505;}input:focus+.slider {box-shadow: 0 0 1px #238505;}input:checked+.slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}.slider.round {border-radius: 34px; }.slider.round:before {border-radius: 50%;}.left {flex: 35%;padding: 15px 0;}.left h2 {padding-left: 8px;}
+                            </p>
 
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
                     <div class="left" style="background-color:#bbb;">
-                        <h2>Menu</h2>
+                        <h2 class="menuE">Menu</h2>
                         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
                         <ul id="myMenu">
                             <li><a href="#">HTML</a></li>
@@ -116,13 +171,35 @@
                             <li><a href="#">Bootstrap</a></li>
                             <li><a href="#">Node.js</a></li>
                         </ul>
-                        </div>
+                    </div>
                     </div><br>
                 </div><br>
-
+                <div class="eleventana3">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup3">&times;</div>
+                        <p><b>HTML:</b> &lt;input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+                            <ul id="myMenu">
+                                &lt;li&gt;&lt;a href="#"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;PHP&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Python&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;SQL&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="#"&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                        </p><br>
+                        <p>
+                            <b>CSS: </b>#mySearch {width: 100%;font-size: 18px;padding: 11px;border: 1px solid #ddd;}#myMenu {list-style-type: none;padding: 0;margin: 0;}#myMenu li a {padding: 12px;text-decoration: none;color: black;display: block}#myMenu li a:hover {background-color: #eee;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
-                        <h1>Scroll Menu</h1>
+                        <h1 class="scrollE">Scroll Menu</h1>
                         <div class="scrollmenu">
                             <a href="#home">Home</a>
                             <a href="#news">News</a>
@@ -142,10 +219,37 @@
                         </div><br><br>
                     </div><br>
                 </div><br>
-
+                <div class="eleventana4">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup4">&times;</div>
+                        <p><b>HTML:</b>&lt;div class="scrollmenu"&gt;
+                            &lt;a href="#home"&gt;Home&lt;/a&gt;
+                            &lt;a href="#news"&gt;News&lt;/a&gt;
+                            &lt;a href="#contact"&gt;Contact<&lt;/a&gt;
+                            &lt;a href="#about"&gt;About&lt;/a&gt;
+                            &lt;a href="#support"&gt;Support&lt;/a&gt;
+                            &lt;a href="#blog"&gt;Blog&lt;/a&gt;
+                            &lt;a href="#tools"&gt;Tools&lt;/a&gt;
+                            &lt;a href="#base"&gt;Base&lt;/a&gt;
+                            &lt;a href="#custom"&gt;Custom&lt;/a&gt;
+                            &lt;a href="#more"&gt;More&lt;/a&gt;
+                            &lt;a href="#logo"&gt;Logo&lt;/a&gt;
+                            &lt;a href="#friends"&gt;Friends&lt;/a&gt;
+                            &lt;a href="#partners"&gt;Partners&lt;/a&gt;
+                            &lt;a href="#people"&gt;People&lt;/a&gt;
+                            &lt;a href="#work"&gt;Work&lt;/a&gt;
+                            &lt;/div&gt;&lt;br&gt;&lt;br&gt;
+                        </p><br>
+                        <p>
+                            <b>CSS: </b>div.scrollmenu {background-color: #333;overflow-x: scroll;white-space: nowrap;}div.scrollmenu a {display: inline-block;color: white;text-align: center;padding: 14px;text-decoration: none;} div.scrollmenu a:hover { background-color: #777;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
-                    <h1>Cascading Dropdown Example</h1>
+                    <h1 class="CascadingE">Cascading Dropdown Example</h1>
                     <form name="form1" id="form1" action="/action_page.php">
                         Subjects: <select name="subject" id="subject">
                             <option value="" selected="selected">Select subject</option>
@@ -163,10 +267,35 @@
                     </form><br><br>
                     </div><br>
                 </div><br>
-
+                <div class="eleventana5">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup5">&times;</div>
+                        <p><b>HTML:</b>&lt;form name="form1" id="form1" action="/action_page.php"&gt;
+                            Subjects: &lt;select name="subject" id="subject"&gt;
+                            &lt;option value="" selected="selected"&gt;Select subject&lt;/option&gt;
+                            &lt;/select&gt;
+                            &lt;br&gt;&lt;br&gt;
+                            Topics: &lt;select name="topic" id="subject"&gt;
+                            &lt;option value="" selected="selected"&gt;Please select subject first&lt;/option&gt;
+                            &lt;/select&gt;
+                            &lt;br&gt;&lt;br&gt;
+                            Chapters: &lt;select name="chapter" id="subject"&gt;
+                            &lt;option value="" selected="selected"&gt;Please select topic first&lt;/option&gt;
+                            &lt;/select&gt;
+                            &lt;br&gt;&lt;br&gt;
+                            &lt;input type="submit" value="Submit" class="button18"&gt;
+                            &lt;/form&gt;&lt;br&gt;&lt;br&gt;
+                        </p><br>
+                        <p>
+                            <b>CSS: </b>#subject{border-left: 5px solid #ff0000;background-color: #FFEBD6;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
-                    <h1>Carta</h1>
+                    <h1 class="cartaE">Carta</h1>
                     <div class="card">
                         <div class="card-img"></div>
                         <div class="card-info">
@@ -183,10 +312,42 @@
                     </div><br>
                     </div><br>
                 </div><br>
-
+                <div class="eleventana6">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup6">&times;</div>
+                        <p><b>HTML:</b>&lt;div class="card"&gt;
+                            &lt;div class="card-img"&gt;&lt;/div&gt;
+                            &lt;div class="card-info"&gt;
+                            &lt;svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+                            &lt;path d="M0 0h24v24H0z" fill="none"&gt;&lt;/path&gt;
+                            &lt;path
+                                        d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                                        fill="currentColor"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;
+                                        &lt;p class="text-title"&gt;Card title&lt;/p&gt;
+                                        &lt;p class="text-body"&gt;Lorem Ipsum dolor sit amet&lt;/p&gt;
+                                        &lt;button class="card-button"&gt;Read More&lt;/button&gt;
+                                        &lt;/div&gt;
+                                        &lt;/div&gt;&lt;br&gt;
+                        </p><br>
+                        <p>
+                            <b>CSS: </b>.card {width: 190px;height: 254px;border-radius: 1em;padding: 1.9rem;background: #f5f5f5;position: relative;display: flex;align-items: flex-end;transition: 0.4s ease-out;box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);margin-left: 30px;margin-bottom: 10px;} 
+                            .card:before {content: ""; position: absolute;top: 0;left: 0;display: block;width: 100%;height: 100%;background: rgba(238, 116, 116, 0.4);z-index: 2;transition: 0.5s;}
+                            .card-info {position: relative;z-index: 3;color: #f5f5f5;opacity: 0;transform: translateY(20%);transition: 0.5s;}
+                            .text-title {font-size: 1.5rem;font-weight: 500;}.text-body {letter-spacing: 1px;font-size: 0.9rem;margin: 5px 0 15px 0;}
+                            .card-button {padding: 0.6rem;outline: none;border: none;border-radius: 4px;background: #ee9ca7;color: white;font-weight: bold;transition: 0.4s ease;}
+                            .card-img {width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: #ee9ca7; background: linear-gradient(to bottom, #e7aeae, #ee9ca7);}
+                            .card:hover {transform: translateY(5%);}
+                            .card:hover:before {opacity: 1; }
+                            .card:hover .card-info {opacity: 1;transform: translateY(0); }.card-button:hover {background: rgba(218, 77, 77, 0.4);color: #f5f5f5;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
                 <div class="separador"><br>
                     <div class="blanco1">
-                    <h1>Paginación</h1><br>
+                    <h1 class="paginacionE">Paginación</h1><br>
                     <div class="pagination">
                         <a href="#">&laquo;</a>
                         <a href="#">1</a>
@@ -199,7 +360,27 @@
                     </div><br>
                     </div><br>
                 </div>
-
+                <div class="eleventana7">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="elepopup7">&times;</div>
+                        <p><b>HTML:</b>&lt;div class="pagination"&gt;
+                            &lt;a href="#"&gt;&laquo;&lt;/a&gt;
+                            &lt;a href="#"&gt;1&lt;/a&gt;
+                            &lt;a class="active" href="#"&gt;2&lt;/a&gt;
+                            &lt;a href="#"&gt;3&lt;/a&gt;
+                            &lt;a href="#"&gt;4&lt;/a&gt;
+                            &lt;a href="#"&gt;5&lt;/a&gt;
+                            &lt;a href="#"&gt;6&lt;/a&gt;
+                            &lt;a href="#"&gt;&raquo;&lt;/a&gt;
+                            &lt;/div&gt;&lt;br&gt;
+                        </p><br>
+                        <p>
+                            <b>CSS: </b>.pagination a {color: black;padding: 8px 16px;text-decoration: none;transition: background-color .3s;background: white;}.pagination a.active {background-color: dodgerblue;color: white;}
+                        </p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------------------->
             </div>
         </div>
     </section>
@@ -215,7 +396,7 @@
                 sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
         }
     </script>
-
+<script type="module" src="../js/elementos_generales.js"></script>
 </body>
 
 </html>
