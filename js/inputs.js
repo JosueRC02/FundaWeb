@@ -97,7 +97,7 @@ $(window).load(function () {
 });
 
 $(window).load(function () {
-    $(".imputDisable").click(function () {
+    $(".inputCheckBox").click(function () {
         $('.inputventana11').show();
     });
     $('.inputpopup11').click(function () {
@@ -106,7 +106,7 @@ $(window).load(function () {
 });
 
 $(window).load(function () {
-    $(".imputDisable").click(function () {
+    $(".inputRadio").click(function () {
         $('.inputventana12').show();
     });
     $('.inputpopup12').click(function () {
